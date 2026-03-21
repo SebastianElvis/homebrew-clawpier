@@ -1,5 +1,5 @@
 cask "clawpier" do
-  version "0.3.0-rc2"
+  version "0.3.0"
 
   on_arm do
     url "https://github.com/SebastianElvis/clawpier/releases/download/v#{version}/ClawPier_v#{version}_aarch64.dmg"
