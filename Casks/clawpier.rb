@@ -1,14 +1,14 @@
 cask "clawpier" do
-  version "0.2.2"
+  version "0.3.0-rc2"
 
   on_arm do
     url "https://github.com/SebastianElvis/clawpier/releases/download/v#{version}/ClawPier_v#{version}_aarch64.dmg"
-    sha256 "34f8f1966418c15d5925882139b0f711ca66ddd3acd36ad7e7dc2547cf5d4fe9"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   on_intel do
     url "https://github.com/SebastianElvis/clawpier/releases/download/v#{version}/ClawPier_v#{version}_x64.dmg"
-    sha256 "c6f77f5b47eee1e8196ec7beb0310f3b57946ff16bf865c155c91520f38d7513"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   name "ClawPier"
